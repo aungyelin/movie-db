@@ -1,27 +1,28 @@
 [versions]
 accompanistPager = "0.28.0"
-agp = "8.7.2"
-coilCompose = "2.4.0"
-converterGson = "2.9.0"
+agp = "8.10.1"
+coilCompose = "2.7.0"
+converterGson = "2.11.0"
 core = "12.0.0"
-hiltAndroid = "2.49"
-hiltCompiler = "2.49"
+hiltAndroid = "2.56.1"
+hiltCompiler = "2.56.1"
 hiltCompilerVersion = "1.2.0"
 hiltNavigationCompose = "1.2.0"
-kotlin = "2.0.0"
-coreKtx = "1.15.0"
+kotlin = "2.1.10"
+ksp = "2.1.10-1.0.31"
+coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.7"
-activityCompose = "1.9.3"
-composeBom = "2024.04.01"
-loggingInterceptor = "4.10.0"
-materialIconsExtended = "1.7.5"
-navigationCompose = "2.8.4"
-okhttp = "4.11.0"
-retrofit = "2.9.0"
-roomKtx = "2.6.1"
+lifecycleRuntimeKtx = "2.9.1"
+activityCompose = "1.10.1"
+composeBom = "2025.06.00"
+loggingInterceptor = "4.12.0"
+materialIconsExtended = "1.7.8"
+navigationCompose = "2.9.0"
+okhttp = "4.12.0"
+retrofit = "2.11.0"
+roomKtx = "2.7.1"
 
 [libraries]
 accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPager" }
@@ -60,4 +61,5 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 
